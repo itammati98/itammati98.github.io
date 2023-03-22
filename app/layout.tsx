@@ -12,12 +12,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=' bg-slate-600 text-slate-300 scroll-smooth'>
-      <div className=' bg-slate-700 flex flex-row justify-center py-3 mb-12 duration-300'>
+      <body className='bg-neonCity bg-cover bg-fixed  text-white scroll-smooth'>
+      <div className=' bg-glass fixed top-0 left-0 z-50 w-screen flex flex-row justify-center py-3 duration-300'>
         <ul className=' text-2xl flex flex-row gap-6 max-w-4xl'>
           <li><a className='p-2 hover:text-indigo-300 hover:duration-300' href="/">Home</a></li>
           <li><a className='p-2 hover:text-indigo-300 hover:duration-300' href="/projects">Projects</a></li>
-          <li><a className='p-2 hover:text-indigo-300 hover:duration-300' href="">Experimental</a></li>
+          <li><a className='p-2 hover:text-indigo-300 hover:duration-300' href="/experimental">Experimental</a></li>
         </ul>
       </div>
         {children}</body>
