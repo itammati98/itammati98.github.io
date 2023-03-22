@@ -19,17 +19,17 @@ export default function Home() {
         </div>
       </section>
         <section className=' mb-9 py-6 w-full max-h-max flex flex-col flex-wrap items-center justify-center gap-3'>
-            <h3 className='min-w-full bg-glass text-center font-semibold pt-6 pb-3 text-3xl'>Favourite projects I was working on</h3>
+            <h3 className='border border-solid border-glass backdrop-blur-sm min-w-full bg-glass text-center font-semibold pt-6 pb-3 text-3xl'>Favourite projects I was working on</h3>
           <div>
-          <div className=' p-6 my-9 rounded-3xl bg-glass w-fit flex flex-row flex-wrap justify-center items-center gap-12'>
+          <div className='border border-solid border-glass backdrop-blur-sm p-6 my-9 rounded-3xl bg-glass w-fit flex flex-row flex-wrap justify-center items-center gap-12'>
             <p className=' text-right max-w-md mt-3 text-xl'><span className=' font-semibold text-3xl'>Project 1</span><br/><br/>Description of a project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est ipsum quis sequi ratione dignissimos ducimus, perferendis quia, quidem sit accusantium. Delectus placeat dignissimos officia animi eos adipisci blanditiis dicta.</p>
           <Image className='  rounded-3xl' src='/vhs.png' alt='avatar image' width={500} height={500}></Image>
           </div>
-          <div className=' my-12 rounded-3xl bg-glass p-6 w-fit flex flex-row flex-wrap justify-center items-center gap-12'>
+          <div className='border border-solid border-glass backdrop-blur-sm my-12 rounded-3xl bg-glass p-6 w-fit flex flex-row flex-wrap justify-center items-center gap-12'>
           <Image className=' rounded-3xl' src='/dragon.png' alt='avatar image' width={500} height={500}></Image>
             <p className=' text-left max-w-md mt-3 text-xl'><span className=' font-semibold text-3xl'>Project 2</span><br/><br/>Description of a project. This was a very exciting project Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur perspiciatis architecto dignissimos exercitationem. Sapiente, magni voluptatum aut deleniti iste voluptatibus ullam quis, nam pariatur nisi iure, corrupti delectus soluta odio.</p>
           </div>
-          <div className='my-12 rounded-3xl bg-glass p-6 w-fit text-center flex flex-row flex-wrap justify-center items-center gap-12'>
+          <div className='border border-solid border-glass backdrop-blur-sm my-12 rounded-3xl bg-glass p-6 w-fit text-center flex flex-row flex-wrap justify-center items-center gap-12'>
             <p className=' text-right max-w-md mt-3 text-xl'><span className=' font-semibold text-3xl'>Project 3</span><br/><br/>Description of a project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident consequuntur aliquam voluptatibus possimus architecto repellat, quia omnis in culpa ipsam blanditiis quos, magni sunt. Vel obcaecati consectetur eum fuga distinctio.</p>
           <Image className='rounded-3xl' src='/singing.png' alt='avatar image' width={500} height={500}></Image>
           </div>
