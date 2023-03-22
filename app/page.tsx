@@ -23,7 +23,7 @@ export default function Home() {
           <div>
           <div className='border border-solid border-glass backdrop-blur-sm p-6 my-9 rounded-3xl bg-glass w-fit flex flex-row flex-wrap justify-center items-center gap-12'>
             <p className=' text-right max-w-md mt-3 text-xl'><span className=' font-semibold text-3xl'>Project 1</span><br/><br/>Description of a project. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est ipsum quis sequi ratione dignissimos ducimus, perferendis quia, quidem sit accusantium. Delectus placeat dignissimos officia animi eos adipisci blanditiis dicta.</p>
-          <Image className='  rounded-3xl' src='/vhs.png' alt='avatar image' width={500} height={500}></Image>
+          <Image className='  rounded-3xl' src='/fix.png' alt='avatar image' width={500} height={500}></Image>
           </div>
           <div className='border border-solid border-glass backdrop-blur-sm my-12 rounded-3xl bg-glass p-6 w-fit flex flex-row flex-wrap justify-center items-center gap-12'>
           <Image className=' rounded-3xl' src='/dragon.png' alt='avatar image' width={500} height={500}></Image>
