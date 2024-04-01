@@ -8,7 +8,7 @@ export default function Home() {
     <main className='flex flex-col items-center'>
       <section className=' pt-20 min-w-full flex flex-col items-center'>
         <h1 className='px-6 text-6xl font-bold text-center'>Hi! I am <span className=' text-indigo-300'>Matt</span>!</h1>
-        <h2 className=' px-3 text-3xl font-semibold text-center mb-12'>Welcome to my playground...</h2>
+        <h2 className=' px-3 text-3xl font-semibold text-center mb-12'>Welcome to my site...</h2>
         <div className=' bg-glass border border-solid border-glass backdrop-blur-sm shadow-inherit mb-12 rounded-3xl p-6 max-w-fit max-h-max flex flex-row flex-wrap justify-center gap-12'>
           <Image className=' drop-shadow-md rounded-3xl' src='/avatar.png' alt='avatar image' width={500} height={500}></Image>
           <div className='p-2 w-fit text-center flex flex-col justify-center items-center'>
